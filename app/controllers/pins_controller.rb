@@ -22,6 +22,22 @@ class PinsController < ApplicationController
     end
   end
 
+  def edit
+
+  end
+
+  def update
+    if @pin.update(pin_params)
+      redirect_to @pin, notice: "Success"
+    else
+      render "edit"
+    end
+  end
+
+  def destroy
+
+  end
+
   private
 
   def pin_params
