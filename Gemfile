@@ -29,6 +29,8 @@ gem 'simple_form', '~> 3.2', '>= 3.2.1'
 
 gem 'devise'
 
+gem "paperclip", "~> 5.0.0.beta1"
+
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
