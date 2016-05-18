@@ -2,7 +2,7 @@
   - @pins.each do |pin|
     .box.panel.panel-default
       = if pin.image.present?
-        =image_tag pin.image.url(:medium)
+        =image_tag pin.image.url
       .panel-body
         %h2= link_to pin.title, pin
 
